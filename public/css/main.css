@@ -1,0 +1,78 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.color-app{
+    color: #077eaf !important;
+}
+.navbar-item{
+    font-weight: 700;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+.header{
+    height: calc(100vh - 116px);
+}
+.wave img{
+    position: absolute;
+    bottom: 0;
+}
+.navbar-app{
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: none !important;
+    padding: 2rem !important;
+}
+.title{
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+.caption{
+    font-size: 22px;
+    margin: 1rem 0px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #868e96;
+}
+.view-img{
+    max-width: 250px;
+}
+.view-img img{
+    height: 400px;
+    max-width: 250px;
+    object-fit: cover;
+}
+.btn-app{
+    background: #077eaf !important;
+}
+.menu-header{
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+.icon-menu{
+    width: 70px;
+}
+#bio{
+    background: linear-gradient(135deg, #3ca5f8 0%,#2c83cc 40%,#104983 98%,#104983 98%);
+    color: white;
+}
+
+@media (max-width: 575px) {
+    .menu-header{
+        width: 20rem;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+}
+@media (max-width: 360px) {
+    .menu-header{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+    .icon-menu{
+        width: 50px;
+    }
+}
